@@ -1,5 +1,3 @@
-/* Alberto Jsé <v@9frag.net> */
-
 #include <stdio.h>
 #include <windows.h>
 #include <tchar.h>
@@ -16,7 +14,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved) {
 		AllocConsole();
 		freopen("CONOUT$", "w", stdout);
 		
-		printf("FuckOffMinesweeper enable, <v@9frag.net> \n\n");
+		printf("FuckOffMinesweeper enable\n\n");
 		FuckOffMinesweeper();
 	}
 
